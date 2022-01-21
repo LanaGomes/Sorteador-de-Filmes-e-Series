@@ -1,0 +1,60 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+  }  
+
+body {
+    font-family: "Roboto", sans-serif;
+}  
+
+.boxHeader {
+    padding: 4em;
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: #FFD3C6;
+    color: #3C4169;
+}
+
+.boxButtons {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.group_buttons {
+    font-size: 3em;
+    padding: 1em;
+    border-radius: 1.5em;
+    border: none;
+    margin: 1em;
+    color: #3C4169;
+    font-weight: 700;
+}
+
+.button_Filmes {
+    background-color: #A699DC
+}
+
+.button_Series{
+    background-color: #E387A2
+}
+
+#button_Sortear {
+    display: block;
+    padding: 2em;
+    background-color: #F2B65B;
+    color: #212122;
+}
+
+#resultado {
+    text-align: center;
+    font-size: 4em;
+    padding: 1em;
+}
+
+#button_Sortear:hover {
+    background-color: #e7ff0f;
+}
