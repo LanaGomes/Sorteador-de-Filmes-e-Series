@@ -56,5 +56,9 @@ body {
 }
 
 #button_Sortear:hover {
-    background-color: #e7ff0f;
+    background-color: #9cf0c9;
+}
+
+ul {
+    list-style-type: none
 }
