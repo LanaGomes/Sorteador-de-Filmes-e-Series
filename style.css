@@ -8,7 +8,7 @@ body {
 }  
 
 .boxHeader {
-    padding: 4em;
+    padding: 2em;
     text-align: center;
     font-size: 1.8rem;
     background-color: #FFD3C6;
@@ -16,7 +16,6 @@ body {
 }
 
 .boxButtons {
-    padding: 1em;
     margin: 1em;
     display: flex;
     flex-direction: row;
@@ -25,8 +24,7 @@ body {
 }
 
 .group_buttons {
-    font-size: 3em;
-    padding: 1em;
+    font-size: 2.5em;
     border-radius: 1.5em;
     border: none;
     margin: 1em;
@@ -44,8 +42,8 @@ body {
 
 #button_Sortear {
     display: block;
-    padding: 2em;
-    background-color: #F2B65B;
+    padding: 1em;
+    background-color: #fbdb49;
     color: #212122;
 }
 
@@ -53,12 +51,38 @@ body {
     text-align: center;
     font-size: 4em;
     padding: 1em;
+    background-color: #f5e393;
 }
 
 #button_Sortear:hover {
     background-color: #9cf0c9;
 }
 
-ul {
-    list-style-type: none
+
+ul{
+    list-style: none;
+    padding: 1rem;
+    font-size: 2em;
+    text-align: center;
+    color: #5d5670;
 }
+
+h2 {
+    padding: 2.5rem;
+    font-size: 2.5em;
+    background-color: #5d5670;
+    color: white;
+    text-align: center;
+}
+
+/*ajustar que ta feio*/
+#button_addMovie{
+    display: block;
+    padding: 1em;
+    background-color: #7b69ac;
+    color: #212122;
+    font-size: 2em;
+    border-radius: 2em;
+    border: none;
+}
+
