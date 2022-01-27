@@ -21,11 +21,12 @@ body {
 }
 
 .boxButtons {
-    background-color:#fbdb49 ;
+    background-color:#9eebe4 ;
     width: 100%;
     border: none;
     font-size: 4rem;
     font-weight: 700;
+    color: #3C4169;
 }
 
 #resultado {
@@ -36,10 +37,15 @@ body {
 }
 
 #button_Sortear:hover {
-    background-color: #9cf0c9;
-    
-    
+    background-color:#C7C6FF;
+}    
+
+#button_addMovie:hover {
+    background-color: transparent;
+    border-color: #3C4169 ;
+    color: #3C4169;
 }
+
 
 ul{
     list-style: none;
@@ -47,24 +53,32 @@ ul{
     font-size: 2em;
     text-align: left;
     color: #5d5670;
+    scroll-snap-align: start;
     
 }
 
 h2 {
     padding: 2.5rem;
     font-size: 2.5em;
-    background-color: #5d5670;
+    background-color: #3C4169;
     color: white;
     text-align: center;
 }
 
+li:hover{
+    background-color: #9eebe4;
+}
+   
+
 
 #button_addMovie{
     padding: 1em;
-    background-color: #7b69ac;
-    color: #212122;
+    background-color:#3C4169;
+    color: #fdfdff;
     font-size: 2em;
-    border: none;
+    border-width: 15px;
+    border-color:#3C4169;
+    border-style: solid;
     width: 100%;
 }
 
@@ -76,7 +90,26 @@ h2 {
 .boxMain{
     display: flex;
     margin: 4rem;
+    
 }
 
+#availableMoviesList{
+    height: 200px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
 
+ 
 
+#availableMoviesList::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+#availableMoviesList::-webkit-scrollbar-track {
+    background: #C7C6FF;   
+}
+  
+#availableMoviesList::-webkit-scrollbar-thumb {
+    background-color: #3C4169;    /* color of the scroll thumb */
+   border: 1px transparent   /* creates padding around scroll thumb */
+  }
