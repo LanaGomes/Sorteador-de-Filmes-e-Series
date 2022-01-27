@@ -11,40 +11,21 @@ body {
     padding: 2em;
     text-align: center;
     font-size: 1.8rem;
-    background-color: #FFD3C6;
+    background-color: #C7C6FF;
     color: #3C4169;
 }
 
-.boxButtons {
-    margin: 1em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.group_buttons {
-    font-size: 2.5em;
-    border-radius: 1.5em;
-    border: none;
-    margin: 1em;
-    color: #3C4169;
-    font-weight: 700;
-}
-
-.button_Filmes {
-    background-color: #A699DC
-}
 
 .button_Series{
     background-color: #E387A2
 }
 
-#button_Sortear {
-    display: block;
-    padding: 1em;
-    background-color: #fbdb49;
-    color: #212122;
+.boxButtons {
+    background-color:#fbdb49 ;
+    width: 100%;
+    border: none;
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 #resultado {
@@ -56,15 +37,17 @@ body {
 
 #button_Sortear:hover {
     background-color: #9cf0c9;
+    
+    
 }
-
 
 ul{
     list-style: none;
     padding: 1rem;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     color: #5d5670;
+    
 }
 
 h2 {
@@ -75,14 +58,25 @@ h2 {
     text-align: center;
 }
 
-/*ajustar que ta feio*/
+
 #button_addMovie{
-    display: block;
     padding: 1em;
     background-color: #7b69ac;
     color: #212122;
     font-size: 2em;
-    border-radius: 2em;
     border: none;
+    width: 100%;
 }
+
+.boxMovieList{
+    width: 100%;
+    margin-right: 2.5rem;
+}
+
+.boxMain{
+    display: flex;
+    margin: 4rem;
+}
+
+
 

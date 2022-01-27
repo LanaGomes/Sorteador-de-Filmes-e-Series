@@ -1,4 +1,4 @@
-const arrayFilms = ['Eternos','Encanto','Bios','Infinito','O último duelo']
+const arrayFilms = ['Eternos','Encanto','Bios','Infinito','O último duelo','Baby',"Blue"]
 let itensList;
 const button_addMovie = document.getElementById('button_addMovie');
 button_addMovie.classList.remove("active");
