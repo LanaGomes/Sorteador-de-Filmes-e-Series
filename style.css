@@ -33,7 +33,7 @@ body {
     text-align: center;
     font-size: 4em;
     padding: 1em;
-    background-color: #f5e393;
+    background-color: #f19cc9;
 }
 
 #button_Sortear:hover {
@@ -110,6 +110,6 @@ li:hover{
 }
   
 #availableMoviesList::-webkit-scrollbar-thumb {
-    background-color: #3C4169;    /* color of the scroll thumb */
+    background-color: #f19cc9;    /* color of the scroll thumb */
    border: 1px transparent   /* creates padding around scroll thumb */
   }
